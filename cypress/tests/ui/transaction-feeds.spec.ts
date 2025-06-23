@@ -187,11 +187,6 @@ describe("Transaction Feed", function () {
           .its("response.body.results")
           .should("have.length", Cypress.env("paginationPageSize"));
 
-        // Temporary fix: https://github.com/cypress-io/cypress-realworld-app/issues/338
-        if (isMobile()) {
-          cy.wait(10);
-        }
-
         cy.log("📃 Scroll to next page");
         cy.getBySel("transaction-list").children().scrollTo("bottom");
 
