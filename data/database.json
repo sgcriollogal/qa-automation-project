@@ -11,7 +11,7 @@
       "phoneNumber": "398-225-9900",
       "avatar": "https://avatars.dicebear.com/api/human/uBmeaz5pX.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 150953,
+      "balance": 180953,
       "createdAt": "2023-03-09T22:26:40.101Z",
       "modifiedAt": "2024-03-07T10:07:57.580Z"
     },
@@ -74,6 +74,17 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "YaucWyXRj",
+      "uuid": "a58740b2-bf41-44aa-92c6-59130cbd6421",
+      "firstName": "Sara",
+      "lastName": "Test",
+      "username": "saratest",
+      "password": "$2a$10$.ed4YXeH15U5jm3EMVs0nuXeg2nPCq1ZyiAdNFiD1TW.Q89U.DgCu",
+      "balance": 0,
+      "createdAt": "2025-09-08T18:07:35.533Z",
+      "modifiedAt": "2025-09-08T18:07:35.533Z"
     }
   ],
   "contacts": [
@@ -253,6 +264,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "_kRoLigPH",
+      "uuid": "ab3f55c8-3fa9-47a2-b3b7-2c92fe5ba630",
+      "userId": "YaucWyXRj",
+      "bankName": "My Test Bank",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321",
+      "isDeleted": false,
+      "createdAt": "2025-09-08T18:08:12.483Z",
+      "modifiedAt": "2025-09-08T18:08:12.483Z"
     }
   ],
   "transactions": [
@@ -9855,6 +9877,39 @@
       "requestResolvedAt": "",
       "createdAt": "2023-11-10T07:15:28.127Z",
       "modifiedAt": "2024-03-07T21:58:09.668Z"
+    },
+    {
+      "id": "oqv2R8Nef",
+      "uuid": "dac6f9f0-76db-435a-a6e0-f399ada173cd",
+      "amount": 10000,
+      "description": "Test transaction from Playwright",
+      "receiverId": "uBmeaz5pX",
+      "senderId": "YaucWyXRj",
+      "status": "complete",
+      "createdAt": "2025-09-08T18:15:09.738Z",
+      "modifiedAt": "2025-09-08T18:15:09.738Z"
+    },
+    {
+      "id": "9TSQd_IsO",
+      "uuid": "894aac79-64b3-4786-98d7-28ac43e0d62c",
+      "amount": 10000,
+      "description": "Test transaction from Playwright",
+      "receiverId": "uBmeaz5pX",
+      "senderId": "YaucWyXRj",
+      "status": "complete",
+      "createdAt": "2025-09-08T18:15:25.479Z",
+      "modifiedAt": "2025-09-08T18:15:25.479Z"
+    },
+    {
+      "id": "oxIsZbGLX",
+      "uuid": "7167644a-83ac-4bf8-9f9a-77c22990f4e0",
+      "amount": 10000,
+      "description": "Test transaction from Playwright",
+      "receiverId": "uBmeaz5pX",
+      "senderId": "YaucWyXRj",
+      "status": "complete",
+      "createdAt": "2025-09-08T18:15:31.108Z",
+      "modifiedAt": "2025-09-08T18:15:31.108Z"
     }
   ],
   "likes": [
@@ -10431,6 +10486,36 @@
       "isRead": false,
       "createdAt": "2024-02-01T18:53:45.699Z",
       "modifiedAt": "2024-03-07T17:13:52.110Z"
+    },
+    {
+      "id": "wgdwCM--HC",
+      "uuid": "7f0bb3a2-452c-4f44-82c0-75ed4b4d92c0",
+      "userId": "uBmeaz5pX",
+      "transactionId": "oqv2R8Nef",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-09-08T18:15:09.782Z",
+      "modifiedAt": "2025-09-08T18:15:09.782Z"
+    },
+    {
+      "id": "51U2fkqvXy",
+      "uuid": "b1206b6d-5893-465b-addf-227244dde713",
+      "userId": "uBmeaz5pX",
+      "transactionId": "9TSQd_IsO",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-09-08T18:15:25.509Z",
+      "modifiedAt": "2025-09-08T18:15:25.509Z"
+    },
+    {
+      "id": "0shAeMQ0de",
+      "uuid": "8e596804-25e5-42a2-8ae3-5b86e14b1b94",
+      "userId": "uBmeaz5pX",
+      "transactionId": "oxIsZbGLX",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-09-08T18:15:31.125Z",
+      "modifiedAt": "2025-09-08T18:15:31.125Z"
     }
   ],
   "banktransfers": [
@@ -10983,6 +11068,36 @@
       "transactionId": "gaggAe7wNoiC",
       "createdAt": "2023-03-24T22:18:19.407Z",
       "modifiedAt": "2024-03-07T13:32:42.472Z"
+    },
+    {
+      "id": "AdzjRIKubK",
+      "uuid": "4c3e910c-d633-4c54-b9c8-0632e8d1ed97",
+      "userId": "YaucWyXRj",
+      "amount": 10000,
+      "transactionId": "oqv2R8Nef",
+      "type": "withdrawal",
+      "createdAt": "2025-09-08T18:15:09.749Z",
+      "modifiedAt": "2025-09-08T18:15:09.749Z"
+    },
+    {
+      "id": "M2BSkf9CuO",
+      "uuid": "06285735-93bf-46c6-b1a7-67d3c8604783",
+      "userId": "YaucWyXRj",
+      "amount": 10000,
+      "transactionId": "9TSQd_IsO",
+      "type": "withdrawal",
+      "createdAt": "2025-09-08T18:15:25.483Z",
+      "modifiedAt": "2025-09-08T18:15:25.483Z"
+    },
+    {
+      "id": "dkwK8dNsn0",
+      "uuid": "f1b03bf2-b665-4544-bbf7-01dc7e32a550",
+      "userId": "YaucWyXRj",
+      "amount": 10000,
+      "transactionId": "oxIsZbGLX",
+      "type": "withdrawal",
+      "createdAt": "2025-09-08T18:15:31.111Z",
+      "modifiedAt": "2025-09-08T18:15:31.111Z"
     }
   ]
 }
